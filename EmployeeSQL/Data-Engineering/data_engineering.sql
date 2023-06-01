@@ -8,7 +8,7 @@ CREATE TABLE Employees (
     emp_no int NOT NULL,
     emp_title_id varchar(5) NOT NULL,
     birth_date date NOT NULL,
-    first_name varchar(15) NOT NULL,
+    first_name varchar(14) NOT NULL,
     last_name varchar(16) NOT NULL,
     sex varchar(1) NOT NULL,
     hire_date date NOT NULL,
