@@ -21,7 +21,7 @@ The data analysis portion aims to gather the following information from the tabl
 - For each of the required queries above in the data analysis section, ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
 - The .sql file for my table schemata is located within "/EmployeeSQL/Data-Engineering/table_schemata.sql"
 - The .sql file for my queries is located within "/EmployeeSQL/Data-Analysis/queries.sql"
-- The image file for my ERD is located withing "/EmployeeSQL/Data-Modeling/ERD.png"
+- The image file for my ERD is located within "/EmployeeSQL/Data-Modeling/ERD.png"
 
 ## Sources
 ### Data Modeling Section
