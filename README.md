@@ -1,5 +1,6 @@
 # sql-challenge
 ## Background
+
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
@@ -18,3 +19,7 @@ For this project, you’ll design the tables to hold the data from the CSV files
 ### Data Analysis Section
 
 - In the "List the first name, last name, and hire date for the employees who were hired in 1986" portion, the basis for code used to query all required data for employees hired in 1986 was found from user Chris on Apr 27, 2013 at 13:46 at https://stackoverflow.com/questions/10170544/getting-results-between-two-dates-in-postgresql
+
+## Other things to note
+
+- For each of the required queries in the data analysis section ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
