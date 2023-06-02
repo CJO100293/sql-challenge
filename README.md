@@ -5,7 +5,7 @@ It’s been two weeks since you were hired as a new data engineer at Pewlett Hac
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
-The data analysis portion aims to gather the following info from the tables within the database:
+The data analysis portion aims to gather the following information from the tables within the SQL database using queries:
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 2. List the first name, last name, and hire date for the employees who were hired in 1986.
@@ -15,6 +15,8 @@ The data analysis portion aims to gather the following info from the tables with
 6. List each employee in the Sales department, including their employee number, last name, and first name.
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+For each of the required queries in the data analysis section, ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
 
 ## Sources
 ### Data Modeling Section
@@ -30,7 +32,3 @@ The data analysis portion aims to gather the following info from the tables with
 ### Data Analysis Section
 
 - In the "List the first name, last name, and hire date for the employees who were hired in 1986" portion, the basis for code used to query all required data for employees hired in 1986 was found from user Chris on Apr 27, 2013 at 13:46 at https://stackoverflow.com/questions/10170544/getting-results-between-two-dates-in-postgresql
-
-## Other things to note
-
-- For each of the required queries in the data analysis section ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
