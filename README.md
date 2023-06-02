@@ -16,8 +16,10 @@ The data analysis portion aims to gather the following information from the tabl
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-- For each of the required queries in the data analysis section, ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
-- The .sql file for my table schemata is located within "/EmployeeSQL/Data-Engineering/data_engineering.sql"
+## Explanation of My Challenge Files
+
+- For each of the required queries above in the data analysis section, ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
+- The .sql file for my table schemata is located within "/EmployeeSQL/Data-Engineering/table_schemata.sql"
 - The .sql file for my queries is located within "/EmployeeSQL/Data-Analysis/queries.sql"
 - The image file for my ERD is located withing "/EmployeeSQL/Data-Modeling/ERD.png"
 
