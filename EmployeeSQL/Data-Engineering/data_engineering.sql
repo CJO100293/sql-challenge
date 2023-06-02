@@ -1,9 +1,11 @@
+-- Create Table "Titles" To Store Data From titles.csv
 CREATE TABLE Titles (
     title_id varchar(5) NOT NULL,
     title varchar(18) NOT NULL,
     PRIMARY KEY (title_id)
 );
 
+-- Create Table "Employees" To Store Data From employees.csv
 CREATE TABLE Employees (
     emp_no int NOT NULL,
     emp_title_id varchar(5) NOT NULL,
@@ -16,6 +18,7 @@ CREATE TABLE Employees (
 	PRIMARY KEY (emp_no)
 );
 
+-- Create Table "Salaries" To Store Data From salaries.csv
 CREATE TABLE Salaries (
     emp_no int NOT NULL,
     salary int NOT NULL,
@@ -23,12 +26,14 @@ CREATE TABLE Salaries (
 	PRIMARY KEY (emp_no)
 );
 
+-- Create Table "Departments" To Store Data From departments.csv
 CREATE TABLE Departments (
     dept_no varchar(4) NOT NULL,
     dept_name varchar(18) NOT NULL,
     PRIMARY KEY (dept_no)
 );
 
+-- Create Table "Department_Manager" To Store Data From dept_manager.csv
 CREATE TABLE Department_Manager (
     dept_no varchar(4) NOT NULL,
     emp_no int NOT NULL,
@@ -37,6 +42,7 @@ CREATE TABLE Department_Manager (
 	PRIMARY KEY (dept_no, emp_no)
 );
 
+-- Create Table "Department_Employee" To Store Data From dept_emp.csv
 CREATE TABLE Department_Employee (
     emp_no int NOT NULL,
     dept_no varchar(4) NOT NULL,
