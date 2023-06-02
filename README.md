@@ -5,7 +5,7 @@ It’s been two weeks since you were hired as a new data engineer at Pewlett Hac
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
-The data analysis portion aims to gather the following information from the tables within the SQL database using queries:
+- The data analysis portion aims to gather the following information from the tables within the SQL database using queries:
 
 1. List the employee number, last name, first name, sex, and salary of each employee.
 2. List the first name, last name, and hire date for the employees who were hired in 1986.
@@ -16,11 +16,10 @@ The data analysis portion aims to gather the following information from the tabl
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
-For each of the required queries in the data analysis section, ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
-
-The .sql file for my table schemata is located within "/EmployeeSQL/Data-Engineering/data_engineering.sql"
-
-The .sql file for my queries is located within "/EmployeeSQL/Data-Analysis/queries.sql"
+- For each of the required queries in the data analysis section, ive exported the results into a CSV file located within "/EmployeeSQL/Query-Outputs-CSV".
+- The .sql file for my table schemata is located within "/EmployeeSQL/Data-Engineering/data_engineering.sql"
+- The .sql file for my queries is located within "/EmployeeSQL/Data-Analysis/queries.sql"
+- The image file for my ERD is located withing "/EmployeeSQL/Data-Modeling/ERD.png"
 
 ## Sources
 ### Data Modeling Section
